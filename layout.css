@@ -1,0 +1,37 @@
+.visible {
+    width: 700px;
+    height: 700px;
+    /* margin: 0 auto; */
+    border: red solid 2px;
+    position: absolute;
+    margin-left: 25%;
+    top: 50%;
+    background-color: white;
+
+}
+
+h1 {
+    text-align: center;
+}
+
+.image-seats  {
+    padding: 15px;
+}
+
+.image-seats > img {
+    width: 100%;
+}
+
+
+#registration {
+    
+    display: none;
+}
+
+
+#registration.visibile {
+    display: block;
+    position: absolute;
+    margin-left: 29%;
+    top: 100%;
+}
